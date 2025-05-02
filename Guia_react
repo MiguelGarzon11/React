@@ -1,0 +1,5 @@
+# npx create-reat-app mi-primer-react
+# cd mi-primer-react]
+# npm start
+
+Esto abre localhost:3000 con tu aplicación react corriendo
