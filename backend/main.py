@@ -17,3 +17,7 @@ async def login(request: Request):
     print("Datos recibidos:", data)
     return {"status": "ok", "username": data.get("username")}
 
+
+@app.post("/register")
+async def register(request: Request):
+    data = 
