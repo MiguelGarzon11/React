@@ -1,24 +1,15 @@
 import './App.css';
-import { useState } from 'react'
+import { useState } from 'react';
 
 function App() {
   const [email, setEmail] = useState("");
-  const [pwd, setPwd] = useState("");
+  const [pwd, setPws] = useState("");
 
   const handSudmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); // No se recarga el formulario al enviar
 
-  const response = await fetch("http://localhost:8000/login", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({ email, pwd})
-  });
-
-  const data = await response.json();
-  console.log("Respuesta del backend:", data);
-};
+    const response = await fetch 
+  }
 
   return (
     <div className="App">
@@ -31,7 +22,6 @@ function App() {
         <input type="text" id="email" name="email" required></input>
         <label for="pwd">Password</label>
         <input type="password" id="pwd" name="pwd" required></input>
-
         <button type="submit">Sing in</button>
       </form>
     </div>

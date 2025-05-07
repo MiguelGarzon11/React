@@ -4,3 +4,10 @@
 
 Esto abre localhost:3000 con tu aplicación react corriendo
 
+# const
+
+Se define una variable que no se puede reasignar
+
+#useState
+
+Es una función de React que nos permite guardar imformación que cambia con el tiempo
