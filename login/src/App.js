@@ -3,12 +3,21 @@ import { useState } from 'react';
 
 function App() {
   const [email, setEmail] = useState("");
-  const [pwd, setPws] = useState("");
+  const [pwd, setPwd] = useState("");
 
-  const handSudmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault(); // No se recarga el formulario al enviar
 
-    const response = await fetch 
+    const response = await fetch("http://localhost:8000/login", {
+      method: "POST", // Envia una solicitud POST
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ email, pwd }) // Envia el email y la contraseña al backend
+    });
+
+    const data = await response.json(); // Espera la respuesta  en formato JSON
+    console.log("Respuesta del backend:", data); // Imprime la respuesta en el servidor.
   }
 
   return (
