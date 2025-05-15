@@ -1,0 +1,28 @@
+Guia para aprender la estructura y funcionamiento de Vite
+
+1. Abre tu terminal y escribe:
+npm create vite@latest
+
+2. Te va a pedir el nombre del proyecto, por ejemplo:
+✔ Project name: … mi-react-vite
+
+3. Luego te pedirá seleccionar un framework, elige React (usa las flechas y enter):
+✔ Select a framework: › React
+
+4.Después te pedirá una variante, elige JavaScript (o TypeScript si quieres, pero aquí lo hacemos en JS):
+✔ Select a variant: › JavaScript
+
+5. Entrar a la carpeta del proyecto
+cd mi-react-vite
+
+6. Instalar dependencias
+npm install
+
+7. Ejecutar el servidor de desarrollo
+npm run dev
+
+8. Publicar la aplicación para que otros la usen con vite. (optimiza el código)
+npm run build
+
+9. Después de construir para producción, subes el contenido de la carpeta dist a un servidor web o servicio de hosting 
+(Netlify, Vercel, GitHub Pages, AWS, etc.). Así, cuando alguien visite tu página, verá la versión optimizada y rápida.
