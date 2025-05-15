@@ -26,3 +26,17 @@ npm run build
 
 9. Después de construir para producción, subes el contenido de la carpeta dist a un servidor web o servicio de hosting 
 (Netlify, Vercel, GitHub Pages, AWS, etc.). Así, cuando alguien visite tu página, verá la versión optimizada y rápida.
+
+package.json – El archivo principal de configuración del proyecto:
+
+    Es el archivo que:
+    Describe tu proyecto.
+    Enumera las dependencias necesarias (como React, Vite).
+    Guarda los scripts que puedes ejecutar (npm run dev, npm run build, etc.).
+    Contiene información como nombre, versión y autor.
+
+package-lock.json – El archivo de control detallado de versiones
+
+    Este archivo:
+    Registra exactamente qué versiones de cada paquete (y subpaquete) fueron instaladas.
+    Asegura que todos los desarrolladores (y servidores) usen exactamente las mismas versiones para evitar errores.
