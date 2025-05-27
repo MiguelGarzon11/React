@@ -6,18 +6,26 @@
 
 // Sintaxis Básica 
 
-import React, { createContext, useState } from 'react';
+// npm install constx
 
-export const ThemeContext = createContext();
+import { createState } from 'constx';
 
-export function ThemeProvider({ children }) {
-    const [theme, setTheme] = useState('light');
+export const [useCounter, setCounter] = createState(0);
+
+// Ejemplo:
+
+import React from 'react';
+import { useCounter, useCounter } from './counterState';
+
+export default function CounterComponent() {
+    const counter = useCounter(); // Usar el valor actual
+
+    const increment = () => setCounter (counter + 1); // Cambiar valor
+
     return (
-        <ThemeContext.Provider value={{ theme, setTheme}}>
-            {children}  // Todo lo que envuelves dentro de ThemeProvider
-        </ThemeContext.Provider>
-    );
-} 
-
-
-// Ejemplo
+        <div>
+            <h1>Contador: {counter}</h1>
+            <button onClick={increment}>Incrementar</button>
+        </div>
+    )
+}
