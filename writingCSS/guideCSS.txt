@@ -1,0 +1,55 @@
+Sintaxis de CSS
+
+selector {
+    propiedad: valor;
+}
+
+Ejemplo:
+
+h1 {
+    color: blue;
+    font-size: 36px;
+}
+
+Selector -> Significado
+
+* -> Todos los elementos
+p -> Todos los párrafos <p>
+.clase -> Todos los elementos con esa clase
+#id -> Elemento único con ese ID
+div p -> Todos los <p> dentro de <div>
+div > p	-> Todos los <p> hijos directos de <div>
+
+- Propiedades comunes:
+
+color -> color: red;	Cambia el color del texto
+background -> background: yellow;	Fondo del elemento
+font-size -> font-size: 20px;	Tamaño de fuente
+margin -> margin: 10px;	Margen exterior
+padding	-> padding: 10px;	Relleno interior
+border -> border: 1px solid black;	Borde del elemento
+width/height -> width: 100px;	Ancho/alto del elemento
+text-align -> text-align: center;	Alineación del texto
+
+- Unidades de medida:
+
+px	-> píxeles	font-size: 16px;
+%	-> porcentaje del contenedor	width: 50%;
+em	-> relativo al tamaño del texto padre	font-size: 2em;
+rem	-> relativo al tamaño raíz (html)	font-size: 1.5rem;
+
+|-----------------------|
+|      margin           |
+|  |------------------| |
+|  |    border        | |
+|  |  |------------|  | |
+|  |  |  padding   |  | |
+|  |  |  content   |  | |
+|  |  |------------|  | |
+|  |------------------| |
+|-----------------------|
+
+¿Cómo practicar?
+https://codepen.io/
+
+https://jsfiddle.net/ 

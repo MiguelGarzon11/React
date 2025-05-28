@@ -1,0 +1,52 @@
+===Para instalar en un HTML===
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+===Con node.js o Vite React, Next.js===
+
+npm install -D tailwindcss y configurar el tailwind.config.js
+
+
+===Clases básicas de Tailwind===
+
+Tailwind usa clases utilitarias muy pequeñas, como piezas de Lego. Aquí tienes las más comunes:
+
+
+===Proposito -> Clases Tailwind(Ejemplos)===
+
+
+color de fondo ->   bg-blue-500, bg-red-100, bg-gray-800
+
+color de texto ->   text-white, text-gray-600, text-green-400
+
+Tamaño de texto ->  text-sm, text-lg, text-2xl, text-6xl
+
+Padding ->  p-2, px-4, py-6, pl-3, pr-3
+
+Margin ->   m-2, mt-4, mx-6, mb-1
+
+Bordes ->   rounded, rounded-lg, border, border-gray-300
+
+Sombras	->  shadow, shadow-md, shadow-xl
+
+Ancho / Alto ->     w-64, h-32, max-w-md, min-h-screen
+
+Flexbox	->  flex, items-center, justify-between
+
+Grid ->     grid, grid-cols-2, gap-4
+
+Responsive ->   sm:, md:, lg:, xl:
+
+
+===Responsive con Tailwind===
+
+Tailwind te permite usar clases según el tamaño de pantalla:
+
+
+sm:	≥ 640px
+md:	≥ 768px
+lg:	≥ 1024px
+xl:	≥ 1280px
+
+===Probar clases al instante===
+https://play.tailwindcss.com/
