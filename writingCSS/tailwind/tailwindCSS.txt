@@ -4,7 +4,9 @@
 
 ===Con node.js o Vite React, Next.js===
 
-npm install -D tailwindcss y configurar el tailwind.config.js
+npm install tailwindcss @tailwindcss/vite
+
+  plugins: [react(), tailwindcss()], // Agregar plugins de tailwindccs() y importarlo en el index.css
 
 
 ===Clases básicas de Tailwind===
