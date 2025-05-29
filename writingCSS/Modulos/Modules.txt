@@ -18,3 +18,4 @@ Sirve para:
 - Evitar colisiones de clases.
 - Mantener el código limpio y organizado.
 
+import styles from './Boton.module.css';

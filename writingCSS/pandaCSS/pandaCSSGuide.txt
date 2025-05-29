@@ -1,0 +1,35 @@
+ === Paso 1: Crear el proyecto con Vite + React
+
+ npm create vite@latest mi-app-panda
+
+ === Paso 2: Instala Panda CSS
+
+ npx @pandacss/dev init
+
+ === Paso 3: 
+ npm install @pandacss/dev -D
+
+ === Paso 4: Compila los estilos de Panda CSS
+
+npx panda codegen
+
+=== Paso 5: Corre tu proyecto
+
+npm install
+npm run dev
+
+=== Estructura básica de archivos 
+
+mi-app-panda/
+├── panda.config.ts          ← Configuración de Panda
+├── styled-system/           ← Tokens de diseño
+├── src/
+│   └── App.jsx              ← Tu componente principal
+├── index.css
+
+
+Tokens = valores de diseño constantes
+
+Utilidades = atajos para aplicar estilos rápidamente usando esos tokens
+
+En Panda CSS, los tokens se definen en un archivo de configuración llamado normalmente tokens.ts dentro del directorio theme.
