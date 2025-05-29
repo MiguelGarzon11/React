@@ -1,0 +1,20 @@
+¿Qué son los CSS Modules?
+
+Un CSS Module es una forma de escribir archivos .css donde cada clase que escribes solo aplica al componente donde se importa.
+
+¿Por qué se usan?
+
+En una aplicación React con muchos componentes, puedes tener muchos archivos CSS. Si usas CSS "normal", todas las clases están en el mismo espacio global. Esto genera problemas como:
+
+- Dos componentes usan la clase .boton y se pisan los estilos.
+- Es difícil saber qué afectan a qué parte.
+- No hay organización clara de estilos por componente.
+
+CSS Modules solucionan eso al hacer que cada clase esté limitada al archivo/componente donde se usa, y se generan nombres únicos automáticamente
+
+Sirve para:
+
+- Encapsular estilos por componente.
+- Evitar colisiones de clases.
+- Mantener el código limpio y organizado.
+
