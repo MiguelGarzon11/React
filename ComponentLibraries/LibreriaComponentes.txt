@@ -1,0 +1,3 @@
+¿Qué es una librería de componentes en React?
+
+Es un conjunto de componentes preconstruidos (como botones, inputs, menús, modales) que puedes usar directamente en tu proyecto React, sin tener que diseñarlos desde cero. Esto ahorra tiempo y da un diseño coherente y profesional a tu aplicación.
