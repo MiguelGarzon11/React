@@ -1,0 +1,6 @@
+¿Qué es una Headless Component Library?
+
+Es una librería que te da la lógica y la accesibilidad de los componentes, pero no los estilos, Tú decides como se ven, y la librería se encarga de que funcionen bien, sean accesibles, y tengan buen comportamiento.
+
+Es como que te dieran un cerebro y un esqueleto...y tú le pones la ropa que quieras (diseñó con CSS, tailwind, etc).
+
